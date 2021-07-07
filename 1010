@@ -1,0 +1,24 @@
+/*
+*Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. 
+*Após, calcule e mostre o valor a ser pago.
+*/
+
+
+import java.io.IOException;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner tc = new Scanner(System.in);
+        int ni = tc.nextInt();
+        int qi = tc.nextInt();
+        double vi = tc.nextDouble();
+        int no = tc.nextInt();
+        int qo = tc.nextInt();
+        double vo = tc.nextDouble();
+        double sum = ((qi*vi) + (qo*vo));
+        System.out.println(String.format("VALOR A PAGAR: R$ %.2f", sum));
+ 
+    }
+ 
+}
+   
