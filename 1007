@@ -1,0 +1,20 @@
+/*
+*Leia quatro valores inteiros A, B, C e D.
+*A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
+*/
+
+
+import java.io.IOException;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws IOException {
+    Scanner tc = new Scanner(System.in);
+    int a = tc.nextInt();
+    int b = tc.nextInt();
+    int c = tc.nextInt();
+    int d = tc.nextInt();
+    int sum = ((a*b) - (c*d));
+    System.out.println("DIFERENCA = " + sum);
+    }
+ 
+}
