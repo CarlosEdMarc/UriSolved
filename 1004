@@ -4,6 +4,7 @@ A seguir, calcule o produto entre estes dois valores e atribua esta operação �
 A seguir mostre a variável PROD com mensagem correspondente.   
 */
 
+
 import java.io.IOException;
 import java.util.Scanner;
 public class Main {
