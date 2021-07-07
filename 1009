@@ -1,0 +1,24 @@
+/*
+*Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro).
+*Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
+*/
+
+
+import java.io.IOException;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws IOException {
+    Scanner tc = new Scanner(System.in);
+    
+    String n = tc.nextLine();
+    double s = tc.nextDouble();
+    double t = tc.nextDouble();
+ 
+    double c = t*0.15;
+    double st = s+c;
+    
+    System.out.println(String.format("TOTAL = R$ %.2f", st));
+ 
+    }
+ 
+}
