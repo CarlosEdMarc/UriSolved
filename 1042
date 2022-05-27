@@ -1,17 +1,16 @@
-package uri;
-import java.util.Arrays;
-import java.util.Scanner;
-public class Main {
-	public static void main(String[] args) {
-	
-		Scanner tc = new Scanner(System.in);
+/*Leia 3 valores inteiros e ordene-os em ordem crescente. 
+* No final, mostre os valores em ordem crescente, uma linha em branco e em seguida
+* os valores na sequência como foram lidos.
+*/
+
+        Scanner tc = new Scanner(System.in);
 		
-		int[] arr = new int [3];
+	int[] arr = new int [3];
 		int a, b, c;
 		
-		a = tc.nextInt();
-		b = tc.nextInt();
-		c = tc.nextInt();
+	a = tc.nextInt();
+	b = tc.nextInt();
+	c = tc.nextInt();
 		
         
         arr[0] = a;
